@@ -646,6 +646,7 @@ form .btn {
     }
     .language-box {
         height: 65vh;
+        width: 80vw;
     }
     .acquainted {
         margin-left: 5.5rem;
