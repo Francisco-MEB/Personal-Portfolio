@@ -20,6 +20,7 @@
 
             <nav class="navbar">
                 <a href="#home" class="active">Home</a>
+                <a href="#projects">Projects</a>
                 <a href="#learning">Learning</a>
                 <a href="#languages">Languages</a>
                 <a href="#trivia">Trivia</a>
@@ -31,7 +32,7 @@
             <div class="home-content">
                 <h1>Hey! My name's <span>Francisco</span>.</h1>
                 <h3 class="text-animation"><span></span></h3>
-                <p>Coming from the Philippines, I am an international freshman at the University of Notre Dame double majoring in Computer Science and Applied and Computational Mathematics and Statistics. I am passionate about product development.</p>
+                <p>Originally from the Philippines, I am an international sophomore at the University of Notre Dame majoring in Computer Science with an Engineering Business minor. I am passionate about developing innovative products.</p>
 
                 <div class="social-icons">
                     <a href="mailto:fmborlonganwebsite@hotmail.com"><i class='bx bxl-gmail'></i></a>
@@ -44,7 +45,85 @@
                 </div>
             </div>
         </section>
-        <!-- <hr class="divider"> -->
+        <hr class="divider">
+        <section class="projects" id="projects">
+            <!-- <h2 class="heading">My <span>Projects</span></h2> -->
+
+            <div class="project-card">
+                <div class="project-info-top">
+                    <h3>3D Satellite Orbit Simulation</h3>
+                </div>
+
+                <div class="project-media">
+                    <div class="project-images">
+                        <img src="preview/satellite/free_shot.png" alt="Satellite image 1">
+                        <img src="preview/satellite/follow_shot.png" alt="Satellite image 2">
+                        <!-- <img src="preview/satellite/nadir_pointing.png" alt="Satellite image 3"> -->
+                    </div>
+
+                    <div class="project-video">
+                        <div class="video-wrapper">
+                            <iframe
+                                src="https://www.youtube.com/embed/Kj6E2tMiXCs"
+                                title="YouTube video player"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-info-top">
+                    <h3>AI-Powered Professor Research Assistant</h3>
+                </div>
+
+                <div class="project-media">
+                    <div class="project-images">
+                        <img src="preview/aunalytics/home.png" alt="Home page">
+                        <img src="preview/aunalytics/queries.png" alt="Working product"> 
+                    </div>
+
+                    <div class="project-video">
+                        <div class="video-wrapper">
+                            <iframe
+                                src="https://www.youtube.com/embed/DKHe80r78kQ?si=BQT971sNeee6KA4Q"
+                                title="YouTube video player"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-info-top">
+                    <h3>Fingo: Educational Social Media App</h3>
+                </div>
+
+                <div class="project-media">
+                    <div class="project-images" id="mobile">
+                        <img src="preview/fingo/profile.JPG" alt="Home page">
+                    </div>
+
+                    <div class="project-video">
+                        <div class="video-wrapper">
+                            <iframe
+                                src="https://www.youtube.com/embed/yx_FUV2pz_o?si=Id2SYRxTtTYS9kha"
+                                title="YouTube video player"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr class="divider">
         <section class="learning" id="learning">
             <div class="timeline-items">
                 <div class="timeline-item">
@@ -74,27 +153,27 @@
                         </div>
                 </div>
 
-                <div class="timeline-item">
+                <!-- <div class="timeline-item">
                     <div class="timeline-dot"></div>
                         <div class="timeline-date">APR 2023</div>
                         <div class="timeline-content">
                             <h3>Point-of-Sale System</h3>
                             <p>I constructed the software architecture of a point-of-sale system for a furniture company in Manila. I solely developed the alpha version of the system with C++ using the `&lt;fstream&gt;` and `&lt;sstream&gt;` libraries to parse account data from a guarded CSV file. I passed the version with my comments to another developer for migration into Java, then the system was deployed for company use.</p>
                         </div>
-                </div>
+                </div> -->
 
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
                         <div class="timeline-date">AUG 2024 - MAY 2028</div>
                         <div class="timeline-content">
                             <h3>University of Notre Dame</h3>
-                            <p>For the next four years, I'll be attending the University of Notre Dame as a merit scholar with a full ride. I intend to double major in Computer Science & Applied and Computational Mathematics and Statistics. I am eager to maximize my academic, extracurricular, and professional opportunities.</p>
+                            <p>I will be attending the University of Notre Dame as a merit scholar with a full ride. I am majoring in Computer Science with a minor in Engineering Business, and I am eager to maximize my academic, extracurricular, & professional opportunities.</p>
                         </div>
                 </div>
                 
             </div>
         </section>
-        <!-- <hr class="divider"> -->
+        <hr class="divider">
         <section class="languages" id="languages">
             <!-- C++, [HTML, CSS, JS], PHP, Python -->
             <div class="languages-container">
@@ -107,15 +186,15 @@
 
                 <div class="language-box">
                     <div class="language-info">
-                        <h4>HTML, CSS</h4>
-                        <p>I learned the declarative web languages through courses on freeCodeCamp. But I became proficient through personal projects, and then ultimately being given creative liberty to design the website for Manila International Model United Nations.</p>
+                        <h4>C</h4>
+                        <p>I mainly coded in C for my CS50x, Fundamentals of Computing, and Data Structures courses. I've built a crossword puzzle, Conway's Game of Life, "rolling without slipping" graphics simulation, family tree simulation, Caesar Cipher, greedy algorithms, readability test, data structures applications, and much more.</p>
                     </div>
                 </div>
 
                 <div class="language-box">
                     <div class="language-info">
                         <h4>JavaScript</h4>
-                        <p>I initially learned JavaScript for front-end development: DOM manipulation, event handling, and asynchronous operations using Fetch API. Over time, I expanded my skills to back-end development by building servers with the Node.js framework Express.js: creating REST APIs, parsing data with Multiparty, and handling message functionality with Nodemailer.</p>
+                        <p>I initially learned JavaScript for front-end development: DOM manipulation, event handling, and asynchronous operations using Fetch API. Over time, I expanded my skills to back-end development by building servers with Node.js: creating REST APIs, parsing data with Multiparty, and handling message functionality with Nodemailer.</p>
                     </div>
                 </div>
 
@@ -125,8 +204,7 @@
                         <p>I learned Python through numerous courses by freeCodeCamp, Corey Schafer, and Keith Galli. I am fond of leveraging the language for data science. I've been using Python and its libraries Pandas and NumPy to analyze datasets with the number of points ranging from hundreds (local surveys) to millions (Annual Stack Overflow Developer Surveys).</p>
                     </div>
                 </div>
-            </div>
-            <h4 class="acquainted">*<i>Acquainted with C, PHP</i></h4>          
+            </div> 
         </section>
         <hr class="divider">
         <section class="trivia" id="trivia">
@@ -160,6 +238,7 @@
             </form>
             <!-- <div class="response"></div> -->
         </section>
+        <hr class="divider">
         <footer class="footer">
             <div class="social">
                 <a href="mailto:fmborlonganwebsite@hotmail.com"><i class='bx bxl-gmail'></i></a>
